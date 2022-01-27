@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background: black;
+    color: #AAAAAA;
+    text-align: center;
+    position: relative;
+}
+
+#main {
+    margin: 50px 0;
+}
+
+#tribute-info,
+#tribute-album {
+    display: block;
+    margin: 100px 0;
+}
+
+#title {
+    color: transparent;
+    font-size: 0px;
+}
+
+#tribute-title img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+#image {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+#main-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-pertama {
+    display: flex;
+    margin-top: 15px;
+}
+
+section {
+    width: 75%;
+    margin-left: 5.5%;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 5.5%;
+}
+
+hr {
+    max-width: 90%;
+    margin: auto;
+}
+
+section p a {
+    color: white;
+}
+
+#img-div {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.album-img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-kedua ul {
+    margin: 25px 0 0 3.6%;
+    display: flex;
+}
+
+.album {
+    margin-right: 20px;
+}
+
+.album a {
+    text-decoration: none;
+}
+
+.album-title {
+    color: #AAAAAA;
+}
+
+#follow {
+    padding: 25px 0;
+}
+
+#follow ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#follow li {
+    margin: 10px;
+}
+
+#tribute-link svg {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .container-pertama {
+        display: inline;
+    }
+    #img-div {
+        margin-top: 25px;
+        width: 60%;
+    }
+}
